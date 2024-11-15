@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.start_page {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.main_page {
+    display: none;
+}
+
+.play-btn {
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    background-color: darkblue;
+    border-radius: 10px;
+    color: white;
+    font-size: 22px;
+    margin: 10px;
+}
+
+.goback-btn {
+    display: none;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    background-color: darkblue;
+    border-radius: 10px;
+    color: white;
+    font-size: 22px;
+}
+
+.fullscreen {
+    width: 80%;
+    height: 50%;
+    margin-top: 0;
+}
+
+.drawer,
+.first-page {
+    width: 30%;
+    margin-top: 100px;
+}
+
+.second-page {
+    width: 80%;
+    height: 50%;
+    margin-top: 0;
+}
+
+.third-page {
+    width: 30%;
+    margin-top: 100px;
+}
+
+.fort-page {
+    width: 80%;
+    height: 50%;
+    margin-top: 0;
+}
+
+.fifth-page {
+    width: 30%;
+    margin-top: 100px;
+}
+
+.key {
+    width: 20%;
+}
+
+/* .changeColor {
+    background-color: rgb(135, 96, 96);
+    position: absolute;
+    right: 380px;
+    bottom: 186px;
+    width: 35px;
+    height: 8px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 8px;
+    color: rgb(135, 96, 96);
+} */
+
+
+
+
